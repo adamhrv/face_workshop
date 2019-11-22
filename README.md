@@ -17,7 +17,7 @@ The basic steps are:
 ### Install Miniconda
 
 - Download the install file for your system <https://docs.conda.io/en/latest/miniconda.html>
-- open terminal and run `bash [the-name-of-miniconda-file.sh]` change this to the name of the .sh file first
+- open terminal and run `bash Miniconda3-latest-MacOSX-x86_64.sh.sh` change this to the name of your .sh file first
 
 ### Create Conda Environemnt
 
@@ -26,10 +26,12 @@ The basic steps are:
 ```
 conda create -n face_workshop python=3.7
 #conda activate face_workshop  # to activate environment
-pip install -r requirements.txt
 conda install nb_conda
 conda install -c conda-forge nb_conda_kernels
+pip install -r requirements.txt
+jupyter notebook
 ```
+
 
 ### Troubleshooting
 
